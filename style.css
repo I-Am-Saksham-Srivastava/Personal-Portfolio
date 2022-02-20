@@ -165,12 +165,12 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("Assets/CC_Express_20220220_1502390.4462408727314934-01.jpeg") no-repeat center;
-    height: 100vh;
+    background: url("Assets/CC_Express_20220220_1502390.4462408727314934-01.jpeg") no-repeat left;
+    height: 100v;
     color: #fff;
     min-height: 500px;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: relative;
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
